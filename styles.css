@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: rgb(255, 255, 255);
+    color: rgb(212, 0, 0);
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1.7rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.123);
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar-url {
+    display: flex;
+    padding-right: 8rem;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.7rem;
+    margin: 0 0.25rem;
+    font-family: 'AvenirNext LT Pro',
+        'Helvetica Neue',
+        Arial,
+        sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: #3D4D65;
+    cursor: pointer;
+}
+
+.logo {
+    color: rgba(0, 0, 0, 0.781);
+    letter-spacing: 0.4rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.logo-icon {
+    margin-left: 6rem;
+    padding-right: 0.5rem;
+    color: rgba(9, 137, 223, 0.719);
+    font-size: 1.2rem;
+}
+
+span {
+    color: rgb(246, 152, 0);
+    padding-right: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding-top: 2rem;
+    display: flex;
+    flex: 1;
+
+}
+
+.image {
+    display: flex;
+    background: url('img.png') no-repeat center/cover;
+    width: 100vw;
+    height: 80vh;
+    border-radius: 6.875rem 0rem 0rem 0rem;
+    flex: 1.7;
+
+}
+
+.play {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    color: rgb(0, 183, 255);
+}
+
+.play:hover {
+    color: rgba(0, 181, 253, 0.5);
+}
+
+.message {
+    display: grid;
+    place-items: center;
+    margin-top: auto;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    color: rgb(0, 183, 255);
+}
+
+
+
+.info {
+    display: flex;
+
+    flex-direction: column;
+    padding-top: 3.5rem;
+    padding-left: 8rem;
+
+    flex: 1;
+}
+
+.m-heading {
+
+    display: flex;
+    justify-content: center;
+    width: 47vh;
+
+    height: fit-content;
+    border: 2px solid rgba(83, 79, 79, 0.123);
+    background-color: rgba(35, 134, 110, 0.082);
+    border-radius: 40px;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    color: rgb(53, 47, 47);
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 2.8rem;
+    font-weight: 100;
+    color: rgb(87, 85, 85);
+}
+
+.second {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.644);
+    padding-bottom: 2.5rem;
+}
+
+.inputbox label {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    display: block;
+    color: rgba(128, 128, 128, 0.753);
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 0.5rem 0.4rem;
+    color: rgba(128, 128, 128, 0.753);
+}
+
+::placeholder {
+    letter-spacing: 0.1rem;
+    font-size: 0.95rem;
+}
+
+.btn {
+    display: inline;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background: rgba(101, 216, 155, 0.897);
+    padding: 0.9rem 3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.send {
+    display: inline;
+    padding-left: 0.5rem;
+}
+
+.paragraph {
+    letter-spacing: 0.05rem;
+    color: rgba(128, 128, 128, 0.753);
+}
+
+.footer h6 {
+    color: rgba(128, 128, 128, 0.753);
+    padding-top: 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+}
